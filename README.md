@@ -6,6 +6,8 @@ By Edward Graham
 
   This app was constructed as part of a take home test for a frontend developer position.
 
+  To view this app online, visit: https://sad-cloud.herokuapp.com/ It may take a moment to load.
+
 **GETTING STARTED:**
 
   This app uses npm: '6.2.0' and Node: '6.10.0' to run locally. It uses the React library as well. Visit https://www.npmjs.com/get-npm to download and install these. The repository for this code can be reached at https://github.com/ejpgraham/SadCloud.git. Once you've downloaded the code, you can run the app locally by using the 'npm start' command once you've navigated to the app's root folder.
