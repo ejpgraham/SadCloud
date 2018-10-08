@@ -1,0 +1,78 @@
+.Forecast-container {
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+.Forecast-location-name {
+  font-weight: bold;
+  text-align: center;
+}
+
+.Forecast-item-list {
+  /* <li> elements apparently have some annoying inherent
+  margins - so for the app's visual appeal I set them to zero. */
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+}
+
+.Forecast-item {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  height: 75%;
+  outline: 1px;
+  outline-style: solid;
+}
+
+.Forecast-item-date {
+
+}
+
+.Forecast-item-temperature {
+
+}
+
+.Forecast-item-description {
+  height: 45px;
+}
+
+.Forecast-item-humidity {
+
+}
+
+.location-name {
+
+}
+
+@media only screen and (max-width: 800px){
+  .Forecast-item {
+    float: left;
+    height: 135px;
+    width: 70px;
+  }
+
+  .Forecast-item-date {
+    height: 5px;
+  }
+
+  .Forecast-item-temperature {
+    height: 5px;
+  }
+
+  .Forecast-item-description {
+    height: 5px;
+  }
+
+  .Forecast-item-humidity {
+    height: 20px;
+  }
+
+  .Forecast-item-day {
+    display: none;
+  }
+}
